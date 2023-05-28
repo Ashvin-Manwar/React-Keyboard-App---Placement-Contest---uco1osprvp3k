@@ -1,6 +1,5 @@
 import "../styles/App.css";
 import React, { useState, useEffect } from "react";
-
 const keys = "abcdefghijklmnopqrstuvwxyz0123456789 ".split("");
 
 const App = () => {
@@ -54,5 +53,4 @@ const App = () => {
     </div>
   );
 };
-
 export default App;

@@ -45,7 +45,7 @@ const App = () => {
           <button 
           key={`key-${key}`}
            id={`key-${key}`}
-           onClick={()=>{
+           onClick={()=>
              handleKeyClick(key === " " ? " " : key.toUpperCase())}>
              {key === " " ? "Space" : key.toUpperCase()}
           </button>

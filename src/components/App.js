@@ -11,7 +11,7 @@ const App = () => {
     setPreview((prevPreview)=>prevPreview+keyValue);
   }; 
   const fetchQuote=async()=>{
-    const response=await fetch('http:api.quotable.io/random');
+    const response=await fetch('http://api.quotable.io/random');
     const data=await response.json();
     setQuote(data.content);
   };
